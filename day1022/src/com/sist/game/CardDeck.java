@@ -25,7 +25,7 @@ public class CardDeck {
 		}
 	}
 	//52개의 카드가 순서대로->무작위메소드 만들기
-	public void suffle() {
+	public void shuffle() {
 		Collections.shuffle(deck);
 	}
 	

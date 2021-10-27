@@ -1,10 +1,12 @@
-package com.sist.game;
+  package com.sist.game;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Player {
-
+		
+	 
+		
  
 		// TODO Auto-generated method stub
 		//게임하는 경기자가 cradDuck으로부터 카트를 하나씩 가져와 담을 리스트 만들기
@@ -19,7 +21,7 @@ public class Player {
 		
 		
 		
-		     //원페어를 판별하여 누가 이겼는지 처리하는 메소드
+		    //원페어를 판별하여 누가 이겼는지 처리하는 메소드
 			//숫자 2~10까지는 integer.parseInt()하면 정수가 됨
 			//근데 카드 jack이런 건 interger.parseInt()가 안됨
 			//"2"를 key->2 value로 하는 map

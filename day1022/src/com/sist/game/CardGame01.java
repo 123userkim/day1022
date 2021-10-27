@@ -1,6 +1,6 @@
 package com.sist.game;
 
-public class CardGame02 {
+public class CardGame01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,7 +9,7 @@ public class CardGame02 {
 		CardDeck deck = new CardDeck();
 		
 		//카드를 골고루 섞어 줌
-		deck.suffle();
+		deck.shuffle();
 		
 		//카드게임을 할 경기자를 두 명 생성 
 		Player p1= new Player();
